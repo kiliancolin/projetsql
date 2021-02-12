@@ -1,0 +1,4 @@
+Select primaryTitle from title_basics
+where tconst in
+(Select tconst from title_ratings
+where averageRating > 9 and numVotes > 10000)

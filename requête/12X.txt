@@ -1,0 +1,5 @@
+Select primaryTitle from title_basics
+where genres = 'Comedy' and tconst in
+(Select tconst from title_ratings
+where averageRating in
+(Select max(averageRating) from title_ratings))

@@ -1,0 +1,1 @@
+SELECT DISTINCT types FROM title_akas

@@ -1,0 +1,2 @@
+Select primaryProfession from name_basics
+where primaryName = 'Olivier Nakache'
